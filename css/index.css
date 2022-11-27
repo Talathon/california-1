@@ -127,3 +127,43 @@
 .btn-input input::placeholder{
     color: #000;
 }
+.search-btns{
+    justify-content: center;
+}
+.carousel{
+    position: relative;
+    background: #DCE5E2;
+    border-radius: 32px;
+
+}
+.carousel-line{
+    color: #000;
+    width: 100px;
+}
+.carousel-item .carousel-text{
+    max-width: 500px;
+    margin-left: 50px;
+}
+.carousel-text-row{
+    align-items: center;
+    justify-content: center;
+}
+.carousel-indicators li{
+    width: 194px;
+    height: 2px;
+    background-color: #000;
+}
+
+.carousel-control-prev img{
+    position: absolute;
+    left: 15px;
+}
+
+.carousel-control-next img{
+    position: absolute;
+    right: 25px;
+}
+.carousel-img img{
+    width: 547px;
+    height: 450px;
+}
